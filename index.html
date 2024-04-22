@@ -10,34 +10,38 @@
     <!-- header -->
     <header>
         <!-- logo -->
-        <div id="logo">
+        <div id="banner">
             <img src="img/logo.svg" alt="logo">
         </div>
-        <!-- intestazione -->
-        <h1>Internet deve essere al servizio del "bene pubblico": il <br>
-        manifesto di Tim Berners-Lee</h1>
-        <p>Scritto da <span id="writer">The Booleaner</span> <br>
-        il 10/10/2020</p>
-    </header>
-
     <!-- main -->
     <main>
-        <!-- <div> -->
+        <!-- intestazione -->
+        <div>
+            <h1>Internet deve essere al servizio del "bene pubblico": il <br>
+                manifesto di Tim Berners-Lee</h1>
+                <div>
+                    Scritto da <span class="writer">The Booleaner</span> <br>
+                    il 10/10/2020
+                </div>
+        </div>
+        <!-- immagini principali del articolo -->
             <img src="img/tim-1.jpg" alt="tim">
             <img src="img/tim-2.jpg" alt="tim">
             <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
             <figcaption>2st Photo: Clarke Paul by Wikimedia, Photo:2nd</figcaption>
 
-            <section>
+            <!-- articolo -->
+            <div>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                 magna aliquam erat volutpat. Ut wisi enim
-                ad minim veniam, quis nostrud <span>exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span> Duis
+                ad minim veniam, quis nostrud <span class="highlighted">exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span> Duis
                 autem vel eum iriure dolor in hendrerit in
                 vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
                 odio dignissim qui blandit praesent luptatum
                 zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-            </section>
+            </div>
 
+            <!-- elenco puntato -->
             <ul>
                 <li>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                 magna aliquam erat volutpat.</li>
@@ -49,13 +53,13 @@
             
             <!-- tabella -->
             <table>
-                <thead>
+                <thead id="header-table">
                     <th>Lorem ipsum dolor</th>
                     <th>Lorem ipsum dolor</th>
                     <th>Lorem ipsum dolor</th>
                 </thead>
                 <tbody>
-                <tr>
+                <tr class="row">
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo,
@@ -70,7 +74,7 @@
                         placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia
                         eveniet expedita a quia modi. Totam saepe quibusdam natus harum.</td>
                 </tr>
-                <tr>
+                <tr class="row">
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo,
@@ -79,23 +83,24 @@
                 </tr>
             </table>
 
-            <section>
+            <div>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
                     dolore
                     magna aliquam erat volutpat. Ut wisi enim
                     ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
                     consequat. Duis
                     autem vel eum iriure dolor in hendrerit in
-                    vulputate velit esse molestie consequat, vel <span> illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+                    vulputate velit esse molestie consequat, vel <span class="highlighted"> illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
                     iusto</span>
                     odio dignissim qui blandit praesent luptatum
                     zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-            </section>
-        </div>
+            </div>
     </main>
     <!-- footer -->
     <footer>
-        <div>Potrebbero interessarti</div>
+        <h3>Potrebbero interessarti</h3>
+        <div id="monitor1" class="screen">Lorem lipsus dolor</div>
+        <div id="monitor2" class="screen">Lorem lipsus dolor</div>
     </footer>
 </body>
 </html>
