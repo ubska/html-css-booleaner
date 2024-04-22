@@ -1,12 +1,18 @@
 
 /* header */
 #banner{
+    width: 1015px;
+    height: 150px;
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
 }
-
+#logo{
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
 h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 .writer {
     color: #33b0e7;
@@ -22,6 +28,9 @@ ul{
 }
 
 /* tabella */
+.tabella{
+    width: 1015px;
+}
 table{
     margin-bottom: 40px;
 }
