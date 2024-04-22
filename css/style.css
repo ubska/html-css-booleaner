@@ -3,3 +3,11 @@
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
 }
+
+#writer{
+    color: #33b0e7;
+}
+
+span{
+    background-color: yellow;
+}
